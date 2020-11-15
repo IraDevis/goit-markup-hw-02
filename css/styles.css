@@ -42,8 +42,6 @@ body {
 
 .footer-logo {
   color: var(--title-text-color);
-  /*  bgс временно для визуализации*/
-  background-color: var(--accent-bg-color);
 }
 
 /* ШАПКА САЙТА */
@@ -91,8 +89,6 @@ footer {
   letter-spacing: 0.03em;
 
   color: var(--title-text-color);
-  /*  bgс временно для визуализации*/
-  background-color: var(--accent-bg-color);
 }
 
 .footer-contacts {
