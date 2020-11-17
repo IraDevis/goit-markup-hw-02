@@ -20,16 +20,16 @@ ul {
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   background-color: #ffffff;
 }
 
 /* ЛОГОТИП */
 .logo {
-  font-family: raleway;
+  font-family: "raleway", sans-serif;
   font-size: 26px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
@@ -47,7 +47,6 @@ body {
 /* ШАПКА САЙТА */
 .site-nav a {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -55,16 +54,12 @@ body {
 }
 
 .site-nav a:hover,
-.site-nav a:focus {
-  color: var(--accent-text-color);
-}
-
+.site-nav a:focus,
 .site-nav .current-page {
   color: var(--accent-text-color);
 }
 
 .heder-contacts {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,8 +77,7 @@ footer {
 }
 
 .address {
-  font-weight: 400px;
-  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -92,8 +86,7 @@ footer {
 }
 
 .footer-contacts {
-  font-weight: 400px;
-  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -113,8 +106,7 @@ footer {
 }
 
 .hero-title {
-  font-weight: 900px;
-  font-style: normal;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -124,8 +116,7 @@ footer {
 }
 
 .hero-link {
-  font-weight: 700px;
-  font-style: normal;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -136,8 +127,7 @@ footer {
 
 /* Преимущества-Деятельность-Команда */
 .section-title {
-  font-weight: 700px;
-  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -147,8 +137,7 @@ footer {
 }
 
 .features .title {
-  font-weight: 700px;
-  font-style: normal;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -158,16 +147,18 @@ footer {
 }
 
 .features .text {
-  font-weight: 400px;
-  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.team .name {
-  font-weight: 500px;
-  font-style: normal;
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-list .name {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -176,9 +167,8 @@ footer {
   color: var(--secondary-text-color);
 }
 
-.team .work-position {
-  font-weight: 400px;
-  font-style: normal;
+.team-list .work-position {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -187,21 +177,26 @@ footer {
 
 /* СТРАНИЦА "ПОРТФОЛИО" */
 /* Кнопки фильтра */
-.sorting-buttons {
-  font-weight: 500px;
-  font-style: normal;
+.sorting-buttons button {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
 
   color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
 }
 
-/* Проекты */
+.sorting-buttons button:hover,
+.sorting-buttons button:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-text-color);
+}
+
+/* Галерея проектов */
 .projects .title {
-  font-weight: 700px;
-  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -210,8 +205,7 @@ footer {
 }
 
 .projects .text {
-  font-weight: 400px;
-  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
